@@ -1,14 +1,28 @@
 {
-    "name": "tryout/tryout",
-    "version":"1.0.0",
-    "description": "module for custom catalog management",
-    "type": "magento2-module",
-    "authors": [
-        {
-            "name": "tryout",
-            "email": "tryout1002357@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+   "name": "tryout/tryout", 
+   "description": "N/A",
+   "require": {
+      "php": "~7.0.0|~7.1.0"
+   },  
+   "type": "magento2-module",
+   "version": "1.1.0",
+   "license": [
+      "OSL-3.0",
+      "AFL-3.0" 
+   ],
+   "author": [
+      {
+         "name": "tryout",
+         "email": "tryout1002357@gmail.com",
+         "role": "Developer"
+      }
+   ], 
+   "autoload": { 
+      "files": [
+         "registration.php" 
+      ],
+      "psr-4": {
+         "Tryout\\CustomCatalog\\": ""
+      }
+   }
 }
