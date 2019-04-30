@@ -9,6 +9,6 @@
             "email": "tryout1002357@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
