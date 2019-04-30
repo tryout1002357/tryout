@@ -1,0 +1,15 @@
+{
+    "name": "tryout/tryout",
+    "version":"1.0.0",
+    "description": "module for custom catalog management",
+    "type": "magento2-module",
+    "license": "1.0.0",
+    "authors": [
+        {
+            "name": "tryout",
+            "email": "tryout1002357@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
