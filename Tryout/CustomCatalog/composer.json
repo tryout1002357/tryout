@@ -1,0 +1,21 @@
+{
+    "name": "tryout/customCatalog",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "tryout1002357@gmail.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Tryout\\CustomCatalog\\": ""
+        }
+    }
+}
